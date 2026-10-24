@@ -44,7 +44,7 @@ const getClient = () => {
 		defaultHeaders: {
 			// Optional. Used for app attribution/rankings on openrouter.ai
 			"HTTP-Referer": SITE_URL,
-			"X-Title": "Nas Portfolio | Software Engineer & AI/LLM Specialist",
+			"X-Title": "Nas Portfolio | AI & Business Systems Engineer",
 		},
 	});
 

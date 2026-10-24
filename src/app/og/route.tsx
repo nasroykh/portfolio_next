@@ -53,7 +53,7 @@ export function GET(request: Request) {
 					{title}
 				</div>
 				<div style={{ display: "flex", fontSize: 28, opacity: 0.7 }}>
-					{AUTHOR_NAME} · Software Engineer - AI/LLM Specialist
+					{AUTHOR_NAME} · AI & Business Systems Engineer
 				</div>
 			</div>
 		),

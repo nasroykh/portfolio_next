@@ -110,30 +110,31 @@ export default async function ResumePage({ params }: Props) {
 					</h2>
 					<div className="grid md:grid-cols-2 print:grid-cols-2 gap-4 text-sm">
 						<div>
-							<h3 className="font-semibold mb-2">{t("frontend")}</h3>
+							<h3 className="font-semibold mb-2">{t("erpSystems")}</h3>
 							<p className="text-muted-foreground">
-								Next.js, React, Svelte, TypeScript, Tailwind CSS, Shadcn UI,
-								Tanstack Query, Zustand, Jotai
+								Frappe, ERPNext, SCF accounting, G50 declarations, CNAS/IRG
+								payroll, n8n, Stripe, PayPal
+							</p>
+						</div>
+						<div>
+							<h3 className="font-semibold mb-2">{t("ai")}</h3>
+							<p className="text-muted-foreground">
+								Anthropic, OpenAI, OpenRouter, Google Gemini, RAG, Qdrant, MCP,
+								LangChain, Playwright
 							</p>
 						</div>
 						<div>
 							<h3 className="font-semibold mb-2">{t("backend")}</h3>
 							<p className="text-muted-foreground">
-								Node.js, Fastify, tRPC, Go, Python, Drizzle ORM, Prisma,
-								PostgreSQL, Redis, Qdrant, MongoDB, BullMQ
+								Go, Python, Node.js, Hono, Fastify, tRPC, oRPC, PostgreSQL,
+								MariaDB, Redis, BullMQ, Drizzle ORM
 							</p>
 						</div>
 						<div>
-							<h3 className="font-semibold mb-2">{t("aiTools")}</h3>
+							<h3 className="font-semibold mb-2">{t("frontendInfra")}</h3>
 							<p className="text-muted-foreground">
-								Anthropic, OpenRouter, OpenAI, Google Gemini, LangChain,
-								Playwright, Docker, Stripe, GraphQL
-							</p>
-						</div>
-						<div>
-							<h3 className="font-semibold mb-2">{t("infrastructure")}</h3>
-							<p className="text-muted-foreground">
-								Linux, NGINX, Caddy, AWS, Docker, Jest, CI/CD, Git
+								React, Next.js, TypeScript, Tailwind CSS, Tanstack Query,
+								Docker, Linux, NGINX, Caddy, AWS, CI/CD, Git
 							</p>
 						</div>
 					</div>

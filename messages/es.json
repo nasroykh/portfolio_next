@@ -26,17 +26,17 @@
 		"language": "Idioma"
 	},
 	"home": {
-		"title": "Ingeniero de Software - Especialista en IA/LLM",
+		"title": "Ingeniero de Sistemas Empresariales e IA",
 		"subtitle": "Nasr Eddine Yakhou (Nas)",
-		"intro": "Desarrollo aplicaciones web que realmente funcionan: desde herramientas con IA hasta plataformas de comercio electrónico.",
-		"cta": "Resolvamos juntos los problemas de tu negocio.",
+		"intro": "Construyo sistemas empresariales impulsados por IA que automatizan la contabilidad, las operaciones y los flujos de trabajo internos.",
+		"cta": "Un ingeniero de software con formación en contabilidad, que une los procesos de negocio y la tecnología.",
 		"viewWork": "Ver mi trabajo",
 		"getInTouch": "Ponte en contacto",
 		"recentPosts": "Artículos recientes del blog"
 	},
 	"projects": {
 		"pageTitle": "Proyectos",
-		"intro": "Un portfolio práctico de sistemas en producción: plantillas para una entrega más rápida y plataformas de IA construidas para la fiabilidad, el mantenimiento y el impacto real.",
+		"intro": "Un portafolio práctico de sistemas en producción: herramientas para desarrolladores de Frappe/ERPNext, plataformas de IA y plantillas creadas para la fiabilidad, la mantenibilidad y un impacto real.",
 		"searchPlaceholder": "Busca proyectos por nombre, tecnología o palabra clave...",
 		"filterAll": "Todos",
 		"filterTemplates": "Plantillas",
@@ -71,20 +71,21 @@
 	},
 	"about": {
 		"pageTitle": "Sobre mí",
-		"intro1": "Soy Nas, un ingeniero de software centrado en una sola cosa:",
-		"intro1Bold": "ayudar a las empresas a aumentar sus ingresos.",
+		"intro1": "Soy Nas, un ingeniero de software con formación en contabilidad y finanzas. Construyo",
+		"intro1Bold": "sistemas empresariales impulsados por IA que automatizan la contabilidad, las operaciones y los flujos de trabajo internos.",
 		"intro2Part1": "Sé cuándo",
 		"intro2MoveFast": "avanzar rápido",
 		"intro2And": "y cuándo",
 		"intro2Scale": "construir para escalar",
-		"expertise": "Mi experiencia abarca tres áreas clave:",
+		"expertise": "Mi trabajo se centra en tres áreas:",
+		"expertiseERP": "ERP y Sistemas Contables",
+		"expertiseERPDesc": "(Desarrollo en Frappe/ERPNext y cumplimiento normativo argelino: contabilidad SCF, declaraciones fiscales G50, nóminas CNAS/IRG)",
 		"expertiseAI": "Integración de IA/LLM",
-		"expertiseAIDesc": "(Creación de sistemas RAG, asistentes de IA personalizados y herramientas impulsadas por IA)",
-		"expertiseEcommerce": "Desarrollo de eCommerce",
-		"expertiseEcommerceDesc": "(Arquitectura de plataformas escalables con integración completa de pagos, paneles de administración y funcionalidades a medida)",
-		"expertiseSEO": "Optimización SEO",
-		"expertiseSEODesc": "(Crecimiento medible del tráfico orgánico mediante estrategias técnicas y de contenido)",
-		"leadershipIntro": "He liderado equipos de desarrollo, gestionado proyectos full-stack y entregado sistemáticamente soluciones que impactan directamente en los ingresos y la participación de los usuarios.",
+		"expertiseAIDesc": "(Procesamiento de documentos, extracción de datos, sistemas RAG y agentes de IA que trabajan dentro de tu ERP con los mismos permisos y la misma trazabilidad que un usuario humano)",
+		"expertiseAutomation": "Integración de Sistemas y Automatización",
+		"expertiseAutomationDesc": "(Servicios en Go, Python y TypeScript, APIs y flujos de n8n que conectan las herramientas que tu empresa ya utiliza)",
+		"earlierWork": "Antes del ERP, pasé años construyendo plataformas de eCommerce para empresas de software: sistemas de pago y licencias, paneles de administración y un SEO técnico que aumentó el tráfico orgánico más de un 40 %.",
+		"leadershipIntro": "He liderado equipos de desarrollo, gestionado proyectos full-stack y entregado de forma constante sistemas que influyen directamente en cómo opera y crece un negocio.",
 		"philosophyTitle": "Filosofía y enfoque",
 		"philosophyIntro": "La mayoría de los desarrolladores o bien sobrediseñan todo o improvisan sin orden.",
 		"philosophyNeither": "Yo no hago ni lo uno ni lo otro.",
@@ -98,23 +99,25 @@
 		"beyondCode1": "Paso mucho tiempo experimentando con herramientas de IA antes de que se vuelvan populares, no porque persiga tendencias, sino porque quiero saber qué es realmente útil y qué es solo ruido.",
 		"beyondCode2": "Me interesa especialmente cómo la IA puede automatizar las partes aburridas de un negocio para que las personas puedan centrarse en lo que importa.",
 		"skillsTitle": "Habilidades técnicas",
+		"skillsErp": "ERP y Contabilidad",
+		"skillsAI": "IA y Automatización",
 		"skillsFrontend": "Desarrollo Front-End",
 		"skillsBackend": "Desarrollo Back-End",
-		"skillsTools": "Herramientas y tecnologías"
+		"skillsTools": "Infraestructura y Herramientas"
 	},
 	"experience": {
 		"pageTitle": "Experiencia laboral",
 		"keyAchievements": "Logros clave:",
 		"kbDeveloppement": {
-			"role": "Ingeniero de Software",
+			"role": "Desarrollador Frappe/ERPNext — Integraciones de IA y Cumplimiento Fiscal",
 			"dateRange": "Noviembre 2025 - Presente",
-			"description": "Desarrollo y mejora de soluciones de software empresarial y ERP con foco en sistemas contables e integración de IA. Trabajo en desarrollo full-stack usando tecnologías modernas para entregar aplicaciones de negocio robustas.",
+			"description": "Construcción de sistemas ERP y contables en Frappe/ERPNext para el cumplimiento normativo argelino, e integración de LLMs en los flujos contables que se ejecutan sobre ellos.",
 			"achievements": [
-				"Desarrollo y mejora de sistemas de planificación de recursos empresariales (ERP) con módulos contables especializados",
-				"Integración de capacidades de IA usando los LLM de OpenAI y Anthropic para automatizar y mejorar procesos de negocio",
-				"Desarrollo de funcionalidades full-stack con React, Python y bases de datos PostgreSQL",
-				"Implementación de automatización inteligente para optimizar los flujos contables y el procesamiento de datos",
-				"Trabajo en una arquitectura de software empresarial escalable para aplicaciones críticas para el negocio"
+				"Desarrollo de módulos ERP y contables para el cumplimiento normativo argelino: contabilidad SCF, declaraciones fiscales G50 y nóminas CNAS/IRG",
+				"Integración de los LLMs de Anthropic y OpenAI en flujos contables: procesamiento de documentos, extracción de datos y asientos automatizados",
+				"Desarrollo de funcionalidades full-stack con React, Python y Go sobre PostgreSQL y MariaDB",
+				"Aplicación de mi formación en contabilidad y finanzas para convertir las normas fiscales y de nómina en software fiable",
+				"Trabajo en arquitectura de software empresarial escalable para aplicaciones críticas"
 			]
 		},
 		"vexlogic": {
@@ -181,15 +184,23 @@
 		},
 		"freelancing": {
 			"role": "Desarrollador Web Freelance",
-			"dateRange": "Antes de agosto de 2021",
+			"dateRange": "Enero 2021 - Agosto 2021",
 			"description": "Pasé unos 8 meses aprendiendo desarrollo web y aplicando lo aprendido a través de proyectos freelance y personales. Esto me dio experiencia práctica antes de conseguir mi primer puesto a tiempo completo.",
 			"achievements": [
 				"Realización de varios proyectos de desarrollo web freelance para clientes locales y de Upwork",
 				"Aprendizaje del desarrollo de temas de Shopify y creación de algunos temas personalizados",
 				"Construcción de proyectos personales para practicar habilidades de desarrollo front-end",
 				"Creación de una aplicación de chat en tiempo real usando React y WebSockets",
-				"Desarrollo de un sistema de gestión de empleados como proyecto de fin de carrera en informática",
 				"Construcción de un sistema de gestión de pacientes para un centro médico local"
+			]
+		},
+		"sonatrach": {
+			"role": "Desarrollador de Software en Prácticas",
+			"dateRange": "Octubre 2019 - Marzo 2020",
+			"description": "Prácticas en Sonatrach, la compañía nacional argelina de petróleo y gas, durante mis estudios de informática.",
+			"achievements": [
+				"Desarrollo de una aplicación web interna para gestionar la formación de los empleados con Node.js, Express y MySQL",
+				"Presentación de la aplicación como proyecto de fin de carrera en informática"
 			]
 		}
 	},
@@ -219,7 +230,7 @@
 	},
 	"contact": {
 		"pageTitle": "Ponte en contacto",
-		"intro": "Siempre estoy interesado en conocer nuevos proyectos y oportunidades, en particular los que involucran integración de IA/LLM, desarrollo de eCommerce u optimización SEO. Ya sea que necesites ayuda para construir un sistema RAG personalizado, diseñar una plataforma de eCommerce o mejorar el posicionamiento de tu sitio, o simplemente quieras saludar, no dudes en escribirme.",
+		"intro": "Siempre me interesa conocer nuevos proyectos y oportunidades, en especial implementaciones de Frappe/ERPNext, integraciones de IA para la contabilidad y las operaciones, e integración de sistemas. Ya sea que necesites un agente de IA que trabaje de forma segura dentro de tu ERP, un módulo de cumplimiento o un backend que conecte tus herramientas—o simplemente quieras saludar—¡no dudes en contactarme!",
 		"showEmail": "Haz clic para ver el correo",
 		"copyEmail": "Haz clic para copiar el correo",
 		"emailCopied": "¡Correo copiado!",
@@ -229,22 +240,22 @@
 	"resume": {
 		"backHome": "Volver al inicio",
 		"exportPDF": "Exportar como PDF",
-		"title": "Ingeniero de Software - Especialista en IA/LLM",
+		"title": "Ingeniero de Sistemas Empresariales e IA",
 		"professionalSummary": "Resumen profesional",
-		"professionalSummaryText": "Más de 5 años de experiencia como ingeniero de software especializado en software empresarial, ERP, integración de IA y desarrollo full-stack. Construyo aplicaciones que resuelven problemas reales de negocio, equilibrando velocidad y escalabilidad según lo que realmente necesita cada proyecto.",
+		"professionalSummaryText": "Ingeniero de software con más de 5 años de experiencia y formación en contabilidad y finanzas. Construyo sistemas ERP y contables en Frappe/ERPNext, integro LLMs en los procesos de negocio y entrego aplicaciones full-stack—equilibrando velocidad y escalabilidad según lo que el proyecto realmente necesita.",
 		"technicalSkills": "Habilidades técnicas",
-		"frontend": "Frontend",
+		"erpSystems": "ERP y Contabilidad",
+		"ai": "IA y Automatización",
 		"backend": "Backend",
-		"aiTools": "IA y herramientas",
-		"infrastructure": "Infraestructura",
+		"frontendInfra": "Frontend e Infraestructura",
 		"workExperience": "Experiencia laboral",
 		"kbDeveloppement": {
-			"role": "Ingeniero de Software",
+			"role": "Desarrollador Frappe/ERPNext — Integraciones de IA y Cumplimiento Fiscal",
 			"dateRange": "Nov 2025 - Presente",
 			"achievements": [
-				"Desarrollo y mejora de sistemas ERP con módulos contables especializados e integración de IA usando los LLM de OpenAI y Anthropic",
-				"Desarrollo de funcionalidades full-stack con React, Python y bases de datos PostgreSQL",
-				"Implementación de automatización inteligente para optimizar los flujos contables y los procesos de negocio"
+				"Desarrollo de módulos Frappe/ERPNext para el cumplimiento normativo argelino: contabilidad SCF, declaraciones fiscales G50, nóminas CNAS/IRG",
+				"Integración de los LLMs de Anthropic y OpenAI en flujos contables: procesamiento de documentos, extracción de datos, asientos automatizados",
+				"Desarrollo full-stack con React, Python, Go, PostgreSQL y MariaDB"
 			]
 		},
 		"vexlogic": {
@@ -317,20 +328,20 @@
 		"error": "Otacon no está disponible en este momento. Inténtalo de nuevo más tarde."
 	},
 	"meta": {
-		"siteTitle": "Nas - Especialista en IA/LLM e Ingeniero de Software",
-		"siteDescription": "Especialista en IA/LLM e ingeniero de software especializado en sistemas RAG, asistentes de IA personalizados, plataformas de eCommerce y optimización SEO. Construyo soluciones de IA listas para producción y aplicaciones web de alto rendimiento.",
+		"siteTitle": "Nas - Ingeniero de Sistemas Empresariales e IA",
+		"siteDescription": "Ingeniero de sistemas empresariales e IA con formación en contabilidad y finanzas. Sistemas Frappe/ERPNext, integraciones de LLM y automatización para la contabilidad y las operaciones.",
 		"aboutTitle": "Sobre mí",
-		"aboutDescription": "Especialista en IA/LLM e ingeniero de software especializado en sistemas RAG, plataformas de eCommerce y optimización SEO.",
+		"aboutDescription": "Ingeniero de software con formación en contabilidad y finanzas que construye sistemas ERP, de IA y de automatización para la contabilidad y las operaciones.",
 		"experienceTitle": "Experiencia",
-		"experienceDescription": "Experiencia profesional en desarrollo de IA/LLM, plataformas de eCommerce, optimización SEO e ingeniería full-stack.",
+		"experienceDescription": "Experiencia profesional en sistemas ERP y contables, integración de IA/LLM, desarrollo full-stack y, antes, eCommerce.",
 		"projectsTitle": "Proyectos",
 		"projectsDescription": "Un resumen de proyectos seleccionados en producción, con foco en la arquitectura, los resultados y los criterios de implementación.",
 		"blogTitle": "Blog",
-		"blogDescription": "Mis reflexiones sobre desarrollo de IA/LLM, sistemas RAG, eCommerce, optimización SEO e ingeniería de software.",
+		"blogDescription": "Reflexiones sobre la IA en los sistemas empresariales, Frappe/ERPNext, herramientas LLM, infraestructura e ingeniería de software.",
 		"contactTitle": "Contacto",
-		"contactDescription": "Ponte en contacto con Nas para proyectos de IA/LLM, desarrollo de eCommerce o consultoría SEO.",
+		"contactDescription": "Contacta con Nas para proyectos de ERP, integración de IA y automatización de operaciones.",
 		"resumeTitle": "Currículum",
-		"resumeDescription": "Currículum de Nasr Eddine Yakhou (Nas), Ingeniero de Software y Especialista en IA/LLM: habilidades, trayectoria laboral y logros clave.",
+		"resumeDescription": "Currículum de Nasr Eddine Yakhou (Nas), ingeniero de sistemas empresariales e IA: habilidades, trayectoria y logros clave.",
 		"caseStudySuffix": "Caso de estudio"
 	},
 	"notFound": {

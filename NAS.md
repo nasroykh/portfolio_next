@@ -4,8 +4,10 @@
 
 - **Full Name**: Nasr Eddine Yakhou
 - **Preferred Name**: Nas
-- **Current Title**: Software Engineer - AI/LLM Specialist
-- **Focus**: AI, LLMs, eCommerce, SEO, Web Applications, API, Databases
+- **Current Title**: AI & Business Systems Engineer
+- **Focus**: ERP and accounting systems (Frappe/ERPNext), AI/LLM integration, business automation, backend engineering
+- **Background**: Software engineering and accounting & finance
+- **Location**: Oran, Algeria
 
 ---
 
@@ -21,7 +23,9 @@
 
 ## Professional Summary
 
-I build web applications that actually work—from AI-powered tools to eCommerce platforms. I focus on solving business problems together.
+I build AI-powered business systems that automate accounting, operations, and internal workflows.
+
+With a background in both software engineering and accounting & finance, I bridge the gap between business processes and technology through AI, ERP, and backend engineering. I specialize in Frappe/ERPNext, AI and LLMs, system integrations, Go, Python, TypeScript, and PostgreSQL.
 
 I know when to **move fast** and when to **build for scale**.
 
@@ -29,34 +33,29 @@ I know when to **move fast** and when to **build for scale**.
 
 ## Core Expertise
 
-### 1. AI/LLM Integration
+### 1. ERP & Accounting Systems
 
-- Building RAG (Retrieval-Augmented Generation) systems
-- Custom AI assistants
-- AI-powered tools
-- Natural language querying of proprietary documents and knowledge bases using vector embeddings and semantic search
-- Intelligent web scraping and data extraction pipelines
-- Automated content analysis and structured data extraction
+- Frappe/ERPNext development and customization
+- Algerian regulatory compliance: SCF accounting, G50 tax declarations, CNAS/IRG payroll
+- Accounting and finance background applied to fiscal and payroll rules
+- Open-source Frappe developer tooling: ffc (Foxmayn Frappe CLI) and ffm (Foxmayn Frappe Manager)
 
-### 2. eCommerce Development
+### 2. AI/LLM Integration
 
-- Architecting scalable platforms
-- Full payment integration (Stripe, PayPal)
-- Admin dashboards
-- Custom features
-- Subscription management
-- Order processing
-- Customer management
+- LLMs (Anthropic, OpenAI) in accounting workflows: document processing, data extraction, automated entries
+- AI agents connected to ERPs through MCP, using the ERP's own user permissions and audit trail
+- RAG (Retrieval-Augmented Generation) systems with vector embeddings and semantic search (Qdrant)
+- Custom AI assistants and intelligent web scraping and data extraction pipelines (Playwright)
 
-### 3. SEO Optimization
+### 3. Systems Integration & Automation
 
-- Driving measurable organic traffic growth
-- Technical SEO strategies
-- Content strategies
-- Server-side rendering
-- Semantic HTML
-- Schema markup
-- Core Web Vitals optimization
+- Go, Python, and TypeScript services and APIs
+- n8n workflows that connect the tools a business already uses
+- Integrations between ERPs, payment providers, and internal tools
+
+### Earlier Work: eCommerce & SEO
+
+Before ERP work, Nas spent years building eCommerce platforms for software companies: payment and licensing systems (Stripe, PayPal), admin dashboards, and technical SEO that grew organic traffic by 40%+ and moved page speed scores from the 60s to 95+.
 
 ---
 
@@ -84,58 +83,68 @@ I ask one question first: **"What does the business need right now?"**
 
 ## Technical Skills
 
-### Front-End Development
+### ERP & Accounting
 
-- Next.js
-- React
-- TypeScript
-- Svelte
-- Tailwind CSS
-- Tanstack Query
-- Tanstack Router
-- SCSS
-- Shadcn UI
-- Jotai
-- Zustand
-- Vite
+- Frappe
+- ERPNext
+- SCF (Algerian accounting system)
+- G50 tax declarations
+- CNAS/IRG payroll
+- n8n
+- Stripe
+- PayPal
+
+### AI & Automation
+
+- Anthropic
+- OpenAI
+- OpenRouter
+- Google Gemini
+- RAG
+- Qdrant
+- MCP (Model Context Protocol)
+- LangChain
+- Playwright
 
 ### Back-End Development
 
+- Go
+- Python
 - Node.js
+- Hono
 - Fastify
 - tRPC
-- Go
+- oRPC
 - gRPC
-- Python
-- Drizzle ORM
-- Prisma
 - PostgreSQL
+- MariaDB
 - Redis
-- Qdrant
-- MongoDB
 - BullMQ
+- Drizzle ORM
+- MongoDB
 
-### Tools & Technologies
+### Front-End Development
 
-- OpenRouter
-- OpenAI
-- Google Gemini
-- Anthropic
-- LangChain
-- Playwright
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Tanstack Query
+- Tanstack Router
+- Shadcn UI
+- Zustand
+- Jotai
+- Vite
+
+### Infrastructure & Tools
+
 - Docker
 - Linux
-- Stripe
-- Electron
-- Figma
-- C++
-- Jest
 - NGINX
 - Caddy
-- PayPal
-- GraphQL
 - AWS
-- Google Analytics
+- GraphQL
+- Git
 
 ---
 
@@ -143,21 +152,22 @@ I ask one question first: **"What does the business need right now?"**
 
 ### 1. KB Développement
 
-**Role**: Software Engineer  
+**Role**: Frappe/ERPNext Developer — AI Integrations & Fiscal/Accounting Compliance  
 **Period**: November 2025 - Present  
+**Location**: Oran, Algeria (Hybrid)  
 **Website**:
 
 - https://www.kbdev.co/
 - https://www.linkedin.com/company/kb-développement/
 
-**Description**: Building and enhancing enterprise software solutions and ERPs with a focus on accounting systems and AI integration. Working on full-stack development using modern technologies to deliver robust business applications.
+**Description**: Building ERP and accounting systems on Frappe/ERPNext for Algerian regulatory compliance, and integrating LLMs into the accounting workflows that run on them.
 
 **Key Achievements**:
 
-- Developing and enhancing enterprise resource planning (ERP) systems with specialized accounting modules
-- Integrating AI capabilities using OpenAI and Anthropic LLMs to automate and improve business processes
-- Building full-stack features with React, Python and PostgreSQL databases
-- Implementing intelligent automation to streamline accounting workflows and data processing
+- Building ERP and accounting modules for Algerian regulatory compliance: SCF accounting, G50 tax declarations, and CNAS/IRG payroll
+- Integrating Anthropic and OpenAI LLMs into accounting workflows: document processing, data extraction, and automated entries
+- Building full-stack features with React, Python, and Go on PostgreSQL and MariaDB
+- Applying an accounting and finance background to turn fiscal and payroll rules into reliable software
 - Working on scalable enterprise software architecture for business-critical applications
 
 ---
@@ -263,7 +273,7 @@ I ask one question first: **"What does the business need right now?"**
 ### 7. Freelancing / Personal Projects
 
 **Role**: Freelance Web Developer  
-**Period**: Before August 2021  
+**Period**: January 2021 - August 2021  
 **Websites**:
 
 - https://first.nascodes.dev (First Portfolio)
@@ -277,8 +287,26 @@ I ask one question first: **"What does the business need right now?"**
 - Learned Shopify theme development and built a few custom themes
 - Built personal projects to practice front-end development skills
 - Created a real-time chat application using React and WebSockets
-- Developed an employee management system as my computer science thesis project
 - Built a patient management system for a local medical center
+
+---
+
+### 8. Sonatrach
+
+**Role**: Software Developer Intern  
+**Period**: October 2019 - March 2020  
+**Location**: Oran, Algeria (Hybrid)  
+**Website**:
+
+- https://sonatrach.com
+- https://www.linkedin.com/company/sonatrach/
+
+**Description**: Internship at Sonatrach, Algeria's national oil and gas company, during computer science studies.
+
+**Key Achievements**:
+
+- Built an internal web application for managing employee training with Node.js, Express, and MySQL
+- Presented the application as the computer science thesis project
 
 ---
 
@@ -316,19 +344,18 @@ I ask one question first: **"What does the business need right now?"**
 
 ### Current Focus
 
-- AI/LLM integration projects
-- eCommerce development
-- SEO optimization
-- Custom RAG systems
-- Architecting eCommerce platforms
-- Improving search rankings
+- AI in business systems: accounting, operations, and internal workflows
+- Frappe/ERPNext implementations and customization
+- Algerian fiscal and payroll compliance in software
+- AI agents operating ERPs safely (permissions, audit trail, read-only first)
+- Open-source Frappe developer tooling (ffc, ffm)
 
 ### Project Types Open To
 
-- Building custom RAG systems
-- Architecting eCommerce platforms
-- Improving site search rankings
-- AI-powered tools and automation
+- Frappe/ERPNext implementations, customization, and compliance modules
+- AI integrations for accounting and business operations
+- System integrations and business automation (APIs, n8n, Go/Python services)
+- Custom RAG systems and AI assistants
 - Full-stack web applications
 - Technical consulting
 
@@ -338,8 +365,8 @@ I ask one question first: **"What does the business need right now?"**
 
 Always interested in hearing about new projects and opportunities, particularly those involving:
 
-- AI/LLM integration
-- eCommerce development
-- SEO optimization
+- Frappe/ERPNext implementations
+- AI integrations for accounting and business operations
+- System integrations and automation
 
-Whether you need help building a custom RAG system, architecting an eCommerce platform, or improving your site's search rankings—or just want to say hi—feel free to reach out!
+Whether you need an AI agent working safely inside your ERP, a compliance module, or a backend that connects your tools—or just want to say hi—feel free to reach out!

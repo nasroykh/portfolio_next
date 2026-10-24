@@ -19,58 +19,83 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	});
 }
 
-const skills = {
-	frontEnd: [
-		"Next.js",
-		"React",
-		"TypeScript",
-		"Svelte",
-		"Tailwind CSS",
-		"Tanstack Query",
-		"Tanstack Router",
-		"SCSS",
-		"Shadcn UI",
-		"Jotai",
-		"Zustand",
-		"Vite",
-	],
-	backEnd: [
-		"Node.js",
-		"Fastify",
-		"tRPC",
-		"Go",
-		"gRPC",
-		"Python",
-		"Drizzle ORM",
-		"Prisma",
-		"PostgreSQL",
-		"Redis",
-		"Qdrant",
-		"MongoDB",
-		"BullMQ",
-	],
-	toolsAndTechnologies: [
-		"OpenRouter",
-		"OpenAI",
-		"Google Gemini",
-		"Anthropic",
-		"LangChain",
-		"Playwright",
-		"Docker",
-		"Linux",
-		"Stripe",
-		"Electron",
-		"Figma",
-		"C++",
-		"Jest",
-		"NGINX",
-		"Caddy",
-		"PayPal",
-		"GraphQL",
-		"AWS",
-		"Google Analytics",
-	],
-};
+// Rendered in this order; each key is the group's heading in the "about" namespace
+const skillGroups = [
+	{
+		titleKey: "skillsErp",
+		items: [
+			"Frappe",
+			"ERPNext",
+			"SCF",
+			"G50",
+			"CNAS",
+			"IRG",
+			"n8n",
+			"Stripe",
+			"PayPal",
+		],
+	},
+	{
+		titleKey: "skillsAI",
+		items: [
+			"Anthropic",
+			"OpenAI",
+			"OpenRouter",
+			"Google Gemini",
+			"RAG",
+			"Qdrant",
+			"MCP",
+			"LangChain",
+			"Playwright",
+		],
+	},
+	{
+		titleKey: "skillsBackend",
+		items: [
+			"Go",
+			"Python",
+			"Node.js",
+			"Hono",
+			"Fastify",
+			"tRPC",
+			"oRPC",
+			"gRPC",
+			"PostgreSQL",
+			"MariaDB",
+			"Redis",
+			"BullMQ",
+			"Drizzle ORM",
+			"MongoDB",
+		],
+	},
+	{
+		titleKey: "skillsFrontend",
+		items: [
+			"React",
+			"Next.js",
+			"TypeScript",
+			"Tailwind CSS",
+			"Tanstack Query",
+			"Tanstack Router",
+			"Shadcn UI",
+			"Zustand",
+			"Jotai",
+			"Vite",
+		],
+	},
+	{
+		titleKey: "skillsTools",
+		items: [
+			"Docker",
+			"Linux",
+			"NGINX",
+			"Caddy",
+			"AWS",
+			"GraphQL",
+			"Git",
+		],
+	},
+] as const;
 
 export default async function AboutPage({ params }: Props) {
 	const { locale } = await params;
@@ -98,20 +123,21 @@ export default async function AboutPage({ params }: Props) {
 				<p>{t("expertise")}</p>
 				<ul className="space-y-1">
 					<li>
+						<strong className="font-semibold!">{t("expertiseERP")}</strong>{" "}
+						{t("expertiseERPDesc")}
+					</li>
+					<li>
 						<strong className="font-semibold!">{t("expertiseAI")}</strong>{" "}
 						{t("expertiseAIDesc")}
 					</li>
 					<li>
 						<strong className="font-semibold!">
-							{t("expertiseEcommerce")}
+							{t("expertiseAutomation")}
 						</strong>{" "}
-						{t("expertiseEcommerceDesc")}
-					</li>
-					<li>
-						<strong className="font-semibold!">{t("expertiseSEO")}</strong>{" "}
-						{t("expertiseSEODesc")}
+						{t("expertiseAutomationDesc")}
 					</li>
 				</ul>
+				<p>{t("earlierWork")}</p>
 				<p>{t("leadershipIntro")}</p>
 			</section>
 			<hr className="my-6 border-neutral-200 dark:border-neutral-800" />
@@ -151,51 +177,23 @@ export default async function AboutPage({ params }: Props) {
 						{t("skillsTitle")}
 					</h2>
 					<div className="space-y-6">
-						<div>
-							<h3 className="font-medium text-base! mb-3 text-neutral-700 dark:text-neutral-300">
-								{t("skillsFrontend")}
-							</h3>
-							<div className="flex flex-wrap gap-2">
-								{skills.frontEnd.map((skill) => (
-									<span
-										key={skill}
-										className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-md"
-									>
-										{skill}
-									</span>
-								))}
+						{skillGroups.map((group) => (
+							<div key={group.titleKey}>
+								<h3 className="font-medium text-base! mb-3 text-neutral-700 dark:text-neutral-300">
+									{t(group.titleKey)}
+								</h3>
+								<div className="flex flex-wrap gap-2">
+									{group.items.map((skill) => (
+										<span
+											key={skill}
+											className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-md"
+										>
+											{skill}
+										</span>
+									))}
+								</div>
 							</div>
-						</div>
-						<div>
-							<h3 className="font-medium text-base! mb-3 text-neutral-700 dark:text-neutral-300">
-								{t("skillsBackend")}
-							</h3>
-							<div className="flex flex-wrap gap-2">
-								{skills.backEnd.map((skill) => (
-									<span
-										key={skill}
-										className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-md"
-									>
-										{skill}
-									</span>
-								))}
-							</div>
-						</div>
-						<div>
-							<h3 className="font-medium text-base! mb-3 text-neutral-700 dark:text-neutral-300">
-								{t("skillsTools")}
-							</h3>
-							<div className="flex flex-wrap gap-2">
-								{skills.toolsAndTechnologies.map((skill) => (
-									<span
-										key={skill}
-										className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-md"
-									>
-										{skill}
-									</span>
-								))}
-							</div>
-						</div>
+						))}
 					</div>
 				</div>
 			</section>

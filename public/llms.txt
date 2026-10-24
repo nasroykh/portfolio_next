@@ -1,6 +1,6 @@
 # Nasr Eddine Yakhou (Nas) - Portfolio
 
-> Software Engineer - AI/LLM Specialist with 5+ years of experience building web applications, AI-powered tools, and eCommerce platforms.
+> AI & Business Systems Engineer with 5+ years of experience and a background in accounting and finance. Builds AI-powered business systems that automate accounting, operations, and internal workflows.
 
 ## About
 - [About](https://nascodes.dev/about): Learn about Nas's background, philosophy, and approach.
@@ -12,45 +12,48 @@
 
 ## Professional Summary
 
-Nasr Eddine Yakhou (Nas) is a Software Engineer specializing in AI/LLM integration, eCommerce development, and SEO optimization. He builds web applications that solve real business problems—balancing speed with scalability based on project requirements.
+Nasr Eddine Yakhou (Nas) is an AI & Business Systems Engineer based in Oran, Algeria. With a background in both software engineering and accounting & finance, he builds ERP and accounting systems on Frappe/ERPNext, integrates LLMs into business workflows, and connects the tools a business runs on—balancing speed with scalability based on project requirements.
 
 ## Core Expertise
 
+### ERP & Accounting Systems
+- Frappe/ERPNext development and customization
+- Algerian regulatory compliance: SCF accounting, G50 tax declarations, CNAS/IRG payroll
+- Open-source Frappe developer tooling: ffc and ffm
+
 ### AI/LLM Integration
-- Building RAG (Retrieval-Augmented Generation) systems
-- Custom AI assistants using OpenRouter, OpenAI, and Anthropic
-- Vector embeddings and semantic search with Qdrant
-- Intelligent web scraping and data extraction with Playwright
-- Automated content analysis and structured data extraction
+- LLMs (Anthropic, OpenAI) in accounting workflows: document processing, data extraction, automated entries
+- AI agents connected to ERPs through MCP, using the ERP's own permissions and audit trail
+- RAG systems with vector embeddings and semantic search (Qdrant)
+- Custom AI assistants and data extraction pipelines (Playwright)
 
-### eCommerce Development
-- Architecting scalable platforms
-- Payment integration (Stripe, PayPal)
-- Admin dashboards with analytics
-- Subscription management
-- Automated license delivery systems
+### Systems Integration & Automation
+- Go, Python, and TypeScript services and APIs
+- n8n workflows and integrations between ERPs, payment providers, and internal tools
 
-### SEO Optimization
-- Technical SEO strategies (SSR, semantic HTML, schema markup)
-- Core Web Vitals optimization (60s to 95+ page speed scores)
-- 40%+ organic traffic increases through comprehensive strategies
+### Earlier Work: eCommerce & SEO
+- eCommerce platforms with Stripe/PayPal payments, licensing, and admin dashboards
+- Technical SEO: 40%+ organic traffic growth, page speed from 60s to 95+
 
 ## Technical Skills
 
-### Frontend
-Next.js, React, Svelte, TypeScript, Tailwind CSS, Shadcn UI, Tanstack Query, Tanstack Router, Zustand, Jotai, Vite
+### ERP & Accounting
+Frappe, ERPNext, SCF, G50, CNAS/IRG payroll, n8n, Stripe, PayPal
+
+### AI & Automation
+Anthropic, OpenAI, OpenRouter, Google Gemini, RAG, Qdrant, MCP, LangChain, Playwright
 
 ### Backend
-Node.js, Fastify, tRPC, Go, gRPC, Python, Drizzle ORM, Prisma, PostgreSQL, Redis, Qdrant, MongoDB, BullMQ
+Go, Python, Node.js, Hono, Fastify, tRPC, oRPC, gRPC, PostgreSQL, MariaDB, Redis, BullMQ, Drizzle ORM, MongoDB
 
-### AI & Tools
-OpenRouter, OpenAI, Google Gemini, Anthropic, LangChain, Playwright, Docker, Linux, Stripe, PayPal, GraphQL, AWS
+### Frontend & Infrastructure
+React, Next.js, TypeScript, Tailwind CSS, Tanstack Query, Docker, Linux, NGINX, Caddy, AWS, Git
 
 ## Work Experience
 
 ### KB Développement (Nov 2025 - Present)
-**Role**: Software Engineer
-Building and enhancing enterprise software solutions and ERPs with focus on accounting systems and AI integration using React, Python, PostgreSQL, and OpenAI/Anthropic LLMs.
+**Role**: Frappe/ERPNext Developer — AI Integrations & Fiscal/Accounting Compliance
+Building ERP and accounting systems on Frappe/ERPNext for Algerian regulatory compliance (SCF, G50 declarations, CNAS/IRG payroll) and integrating Anthropic and OpenAI LLMs into accounting workflows, with React, Python, Go, PostgreSQL, and MariaDB.
 
 ### VexLogic Ltd (Apr 2025 - Nov 2025)
 **Role**: AI/LLM Specialist & Lead Developer
@@ -71,6 +74,13 @@ Built complete eCommerce solution achieving first-page rankings for key product 
 ### BRENCO Engineering & Consulting (Aug 2021 - Feb 2022)
 **Role**: Full Stack Developer
 First full-time developer role. Built monitoring systems, maintained IoT APIs, and developed custom websites for startups.
+
+### Freelance Web Developer (Jan 2021 - Aug 2021)
+Freelance web development for local and Upwork clients: a real-time chat app (React + WebSockets) and a patient management system for a local medical center.
+
+### Sonatrach (Oct 2019 - Mar 2020)
+**Role**: Software Developer Intern
+Built an internal web application for employee training management (Node.js, Express, MySQL), presented as a computer science thesis project.
 
 ## Career Highlights
 
@@ -95,18 +105,18 @@ First full-time developer role. Built monitoring systems, maintained IoT APIs, a
 
 ## Projects
 
-### Templates
-- [Website Template](https://nascodes.dev/projects/website-template): Next.js 16 starter with 56 UI components, SEO tooling, and Docker deployment. Cut project setup from weeks to hours.
-- [App Template](https://nascodes.dev/projects/app-template): Full-stack monorepo starter (Hono + React + PostgreSQL) with end-to-end type safety via oRPC and Turborepo.
-- [Jinja Template Renderer](https://nascodes.dev/projects/jinja-template-renderer): Standalone Jinja2 previewer with AST-powered mock data generation and live reload for Frappe templates.
+### Dev Tools
+- [ffc — Foxmayn Frappe CLI](https://nascodes.dev/projects/foxmayn-frappe-cli): Go CLI for full Frappe/ERPNext site management — CRUD, schema inspection, reports, and RPC from the terminal.
+- [ffm — Foxmayn Frappe Manager](https://nascodes.dev/projects/foxmayn-frappe-manager): Single-command Frappe bench creation with Docker orchestration, smart port allocation, and Traefik domain routing.
 
 ### AI
 - [Foxmayn AI](https://nascodes.dev/projects/foxmayn-ai): Enterprise RAG platform with multi-strategy retrieval, BullMQ workers, and multi-tenant knowledge base management.
 - [Foxmayn AI CLI](https://nascodes.dev/projects/foxmayn-ai-cli): Terminal chat UI for 7 AI models via OpenRouter, built with Go and Bubble Tea.
 
-### Dev Tools
-- [ffc — Foxmayn Frappe CLI](https://nascodes.dev/projects/foxmayn-frappe-cli): Go CLI for full Frappe/ERPNext site management — CRUD, schema inspection, reports, and RPC from the terminal.
-- [ffm — Foxmayn Frappe Manager](https://nascodes.dev/projects/foxmayn-frappe-manager): Single-command Frappe bench creation with Docker orchestration, smart port allocation, and Traefik domain routing.
+### Templates
+- [Website Template](https://nascodes.dev/projects/website-template): Next.js 16 starter with 56 UI components, SEO tooling, and Docker deployment. Cut project setup from weeks to hours.
+- [App Template](https://nascodes.dev/projects/app-template): Full-stack monorepo starter (Hono + React + PostgreSQL) with end-to-end type safety via oRPC and Turborepo.
+- [Jinja Template Renderer](https://nascodes.dev/projects/jinja-template-renderer): Standalone Jinja2 previewer with AST-powered mock data generation and live reload for Frappe templates.
 
 ## Social Links
 - GitHub: https://github.com/nasroykh
@@ -117,9 +127,9 @@ First full-time developer role. Built monitoring systems, maintained IoT APIs, a
 
 ## Open To
 
-- AI/LLM integration projects
-- eCommerce development
-- SEO optimization
+- Frappe/ERPNext implementations, customization, and compliance modules
+- AI integrations for accounting and business operations
+- System integrations and business automation
 - RAG systems and custom AI assistants
 - Full-stack web applications
 - Technical consulting
@@ -138,5 +148,5 @@ This portfolio is built with:
 - **Animations**: Motion
 - **Content**: MDX (next-mdx-remote)
 - **AI Integration**: OpenRouter, LangChain, Qdrant
-- **i18n**: next-intl (English/French)
+- **i18n**: next-intl (English, French, Arabic, Spanish)
 

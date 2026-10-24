@@ -115,6 +115,21 @@ const experiences = [
 			},
 		],
 	},
+	{
+		id: "sonatrach",
+		companyName: "Sonatrach",
+		translationKey: "sonatrach",
+		website: [
+			{
+				titleKey: "visitWebsite",
+				url: "https://sonatrach.com",
+			},
+			{
+				titleKey: "visitLinkedIn",
+				url: "https://www.linkedin.com/company/sonatrach/",
+			},
+		],
+	},
 ] as const;
 
 export default async function ExperiencePage({ params }: Props) {

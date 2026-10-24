@@ -26,17 +26,17 @@
 		"language": "Language"
 	},
 	"home": {
-		"title": "Software Engineer - AI/LLM Specialist",
+		"title": "AI & Business Systems Engineer",
 		"subtitle": "Nasr Eddine Yakhou (Nas)",
-		"intro": "I build web applications that actually work—from AI-powered tools to eCommerce platforms.",
-		"cta": "Let's solve your business problems together.",
+		"intro": "I build AI-powered business systems that automate accounting, operations, and internal workflows.",
+		"cta": "A software engineer with an accounting background, bridging business processes and technology.",
 		"viewWork": "View My Work",
 		"getInTouch": "Get In Touch",
 		"recentPosts": "Recent Blog Posts"
 	},
 	"projects": {
 		"pageTitle": "Projects",
-		"intro": "A practical portfolio of shipping systems: templates for faster delivery and AI platforms built for reliability, maintainability, and real-world impact.",
+		"intro": "A practical portfolio of shipping systems: developer tools for Frappe/ERPNext, AI platforms, and templates built for reliability, maintainability, and real-world impact.",
 		"searchPlaceholder": "Search projects by name, tech, or keyword...",
 		"filterAll": "All",
 		"filterTemplates": "Templates",
@@ -71,20 +71,21 @@
 	},
 	"about": {
 		"pageTitle": "About Me",
-		"intro1": "I'm Nas, a software engineer focused on one thing:",
-		"intro1Bold": "helping businesses increase revenue.",
+		"intro1": "I'm Nas, a software engineer with a background in accounting and finance. I build",
+		"intro1Bold": "AI-powered business systems that automate accounting, operations, and internal workflows.",
 		"intro2Part1": "I know when to",
 		"intro2MoveFast": "move fast",
 		"intro2And": "and when to",
 		"intro2Scale": "build for scale",
-		"expertise": "My expertise spans three core areas:",
+		"expertise": "My work centers on three areas:",
+		"expertiseERP": "ERP & Accounting Systems",
+		"expertiseERPDesc": "(Frappe/ERPNext development and Algerian regulatory compliance: SCF accounting, G50 tax declarations, CNAS/IRG payroll)",
 		"expertiseAI": "AI/LLM Integration",
-		"expertiseAIDesc": "(Building RAG systems, custom AI assistants, and AI-powered tools)",
-		"expertiseEcommerce": "eCommerce Development",
-		"expertiseEcommerceDesc": "(Architecting scalable platforms with full payment integration, admin dashboards, and custom features)",
-		"expertiseSEO": "SEO Optimization",
-		"expertiseSEODesc": "(Driving measurable organic traffic growth through technical and content strategies)",
-		"leadershipIntro": "I've led development teams, managed full-stack projects, and consistently delivered solutions that directly impact revenue and user engagement.",
+		"expertiseAIDesc": "(Document processing, data extraction, RAG systems, and AI agents that work inside your ERP with the same permissions and audit trail as a human user)",
+		"expertiseAutomation": "Systems Integration & Automation",
+		"expertiseAutomationDesc": "(Go, Python, and TypeScript services, APIs, and n8n workflows that connect the tools your business already runs on)",
+		"earlierWork": "Before ERP, I spent years building eCommerce platforms for software companies: payment and licensing systems, admin dashboards, and technical SEO that grew organic traffic by 40%+.",
+		"leadershipIntro": "I've led development teams, managed full-stack projects, and consistently delivered systems that directly shape how a business operates and grows.",
 		"philosophyTitle": "Philosophy & Approach",
 		"philosophyIntro": "Most developers either over-engineer everything or hack things together.",
 		"philosophyNeither": "I do neither.",
@@ -98,22 +99,24 @@
 		"beyondCode1": "I spend a lot of time experimenting with AI tools before they hit mainstream—not because I chase trends, but because I want to know what's actually useful versus what's just hype.",
 		"beyondCode2": "I'm particularly interested in how AI can automate the boring parts of business so humans can focus on what matters.",
 		"skillsTitle": "Technical Skills",
+		"skillsErp": "ERP & Accounting",
+		"skillsAI": "AI & Automation",
 		"skillsFrontend": "Front-End Development",
 		"skillsBackend": "Back-End Development",
-		"skillsTools": "Tools & Technologies"
+		"skillsTools": "Infrastructure & Tools"
 	},
 	"experience": {
 		"pageTitle": "Work Experience",
 		"keyAchievements": "Key Achievements:",
 		"kbDeveloppement": {
-			"role": "Software Engineer",
+			"role": "Frappe/ERPNext Developer — AI Integrations & Fiscal Compliance",
 			"dateRange": "November 2025 - Present",
-			"description": "Building and enhancing enterprise software solutions and ERPs with a focus on accounting systems and AI integration. Working on full-stack development using modern technologies to deliver robust business applications.",
+			"description": "Building ERP and accounting systems on Frappe/ERPNext for Algerian regulatory compliance, and integrating LLMs into the accounting workflows that run on them.",
 			"achievements": [
-				"Developing and enhancing enterprise resource planning (ERP) systems with specialized accounting modules",
-				"Integrating AI capabilities using OpenAI and Anthropic LLMs to automate and improve business processes",
-				"Building full-stack features with React, Python and PostgreSQL databases",
-				"Implementing intelligent automation to streamline accounting workflows and data processing",
+				"Building ERP and accounting modules for Algerian regulatory compliance: SCF accounting, G50 tax declarations, and CNAS/IRG payroll",
+				"Integrating Anthropic and OpenAI LLMs into accounting workflows: document processing, data extraction, and automated entries",
+				"Building full-stack features with React, Python, and Go on PostgreSQL and MariaDB",
+				"Applying my accounting and finance background to turn fiscal and payroll rules into reliable software",
 				"Working on scalable enterprise software architecture for business-critical applications"
 			]
 		},
@@ -181,15 +184,23 @@
 		},
 		"freelancing": {
 			"role": "Freelance Web Developer",
-			"dateRange": "Before August 2021",
+			"dateRange": "January 2021 - August 2021",
 			"description": "Spent about 8 months learning web development and applying what I learned through freelance projects and personal work. This gave me hands-on experience before landing my first full-time role.",
 			"achievements": [
 				"Took on various freelance web development projects for local and Upwork clients",
 				"Learned Shopify theme development and built a few custom themes",
 				"Built personal projects to practice front-end development skills",
 				"Created a real-time chat application using React and WebSockets",
-				"Developed an employee management system as my computer science thesis project",
 				"Built a patient management system for a local medical center"
+			]
+		},
+		"sonatrach": {
+			"role": "Software Developer Intern",
+			"dateRange": "October 2019 - March 2020",
+			"description": "Internship at Sonatrach, Algeria's national oil and gas company, during my computer science studies.",
+			"achievements": [
+				"Built an internal web application for managing employee training with Node.js, Express, and MySQL",
+				"Presented the application as my computer science thesis project"
 			]
 		}
 	},
@@ -219,7 +230,7 @@
 	},
 	"contact": {
 		"pageTitle": "Get in Touch",
-		"intro": "I'm always interested in hearing about new projects and opportunities, particularly those involving AI/LLM integration, eCommerce development, or SEO optimization. Whether you need help building a custom RAG system, architecting an eCommerce platform, or improving your site's search rankings—or just want to say hi—feel free to reach out!",
+		"intro": "I'm always interested in hearing about new projects and opportunities, particularly Frappe/ERPNext implementations, AI integrations for accounting and business operations, and system integrations. Whether you need an AI agent working safely inside your ERP, a compliance module, or a backend that connects your tools—or just want to say hi—feel free to reach out!",
 		"showEmail": "Click to view email",
 		"copyEmail": "Click to copy email",
 		"emailCopied": "Email copied!",
@@ -229,22 +240,22 @@
 	"resume": {
 		"backHome": "Back to Home",
 		"exportPDF": "Export as PDF",
-		"title": "Software Engineer - AI/LLM Specialist",
+		"title": "AI & Business Systems Engineer",
 		"professionalSummary": "Professional Summary",
-		"professionalSummaryText": "5+ years of experience as a Software engineer specializing in enterprise software, ERPs, AI integration, and full-stack development. I build applications that solve real business problems—balancing speed with scalability based on what the project actually needs.",
+		"professionalSummaryText": "Software engineer with 5+ years of experience and a background in accounting and finance. I build ERP and accounting systems on Frappe/ERPNext, integrate LLMs into business workflows, and ship full-stack applications—balancing speed with scalability based on what the project actually needs.",
 		"technicalSkills": "Technical Skills",
-		"frontend": "Frontend",
+		"erpSystems": "ERP & Accounting",
+		"ai": "AI & Automation",
 		"backend": "Backend",
-		"aiTools": "AI & Tools",
-		"infrastructure": "Infrastructure",
+		"frontendInfra": "Frontend & Infrastructure",
 		"workExperience": "Work Experience",
 		"kbDeveloppement": {
-			"role": "Software Engineer",
+			"role": "Frappe/ERPNext Developer — AI Integrations & Fiscal Compliance",
 			"dateRange": "Nov 2025 - Present",
 			"achievements": [
-				"Developing and enhancing ERP systems with specialized accounting modules and AI integration using OpenAI and Anthropic LLMs",
-				"Building full-stack features with React, Python and PostgreSQL databases",
-				"Implementing intelligent automation to streamline accounting workflows and business processes"
+				"Building Frappe/ERPNext modules for Algerian regulatory compliance: SCF accounting, G50 tax declarations, CNAS/IRG payroll",
+				"Integrating Anthropic and OpenAI LLMs into accounting workflows: document processing, data extraction, automated entries",
+				"Full-stack development with React, Python, Go, PostgreSQL, and MariaDB"
 			]
 		},
 		"vexlogic": {
@@ -317,20 +328,20 @@
 		"error": "Otacon is unavailable right now. Please try again later."
 	},
 	"meta": {
-		"siteTitle": "Nas - AI/LLM Specialist & Software Engineer",
-		"siteDescription": "AI/LLM Specialist and Software Engineer specializing in RAG systems, custom AI assistants, eCommerce platforms, and SEO optimization. Building production-ready AI solutions and high-performance web applications.",
+		"siteTitle": "Nas - AI & Business Systems Engineer",
+		"siteDescription": "AI & Business Systems Engineer with a background in accounting and finance. Building Frappe/ERPNext systems, LLM integrations, and automation for accounting and business operations.",
 		"aboutTitle": "About",
-		"aboutDescription": "AI/LLM Specialist and Software Engineer specializing in RAG systems, eCommerce platforms, and SEO optimization.",
+		"aboutDescription": "Software engineer with an accounting and finance background, building ERP, AI, and automation systems for accounting and business operations.",
 		"experienceTitle": "Experience",
-		"experienceDescription": "Professional experience in AI/LLM development, eCommerce platforms, SEO optimization, and full-stack engineering.",
+		"experienceDescription": "Professional experience in ERP and accounting systems, AI/LLM integration, full-stack engineering, and earlier eCommerce work.",
 		"projectsTitle": "Projects",
 		"projectsDescription": "An overview of selected production projects with architecture focus, outcomes, and implementation rationale.",
 		"blogTitle": "Blog",
-		"blogDescription": "Read my thoughts on AI/LLM development, RAG systems, eCommerce, SEO optimization, and software engineering.",
+		"blogDescription": "Thoughts on AI in business systems, Frappe/ERPNext, LLM tooling, infrastructure, and software engineering.",
 		"contactTitle": "Contact",
-		"contactDescription": "Get in touch with Nas for AI/LLM projects, eCommerce development, or SEO consulting.",
+		"contactDescription": "Get in touch with Nas for ERP, AI integration, and business automation projects.",
 		"resumeTitle": "Resume",
-		"resumeDescription": "Resume of Nasr Eddine Yakhou (Nas), Software Engineer and AI/LLM Specialist: skills, work history and key achievements.",
+		"resumeDescription": "Resume of Nasr Eddine Yakhou (Nas), AI & Business Systems Engineer: skills, work history and key achievements.",
 		"caseStudySuffix": "Case Study"
 	},
 	"notFound": {

@@ -69,8 +69,13 @@ test("language switcher keeps the page and updates the URL", async ({ page }) =>
 	await expect(page).toHaveURL(/\/fr\/about$/);
 	await expect(page.locator("html")).toHaveAttribute("lang", "fr");
 
-	await page.getByRole("button", { name: "Paramètres" }).click();
-	await page.getByRole("menuitem", { name: "English" }).click();
+	// The switch is a full page load: a click before hydration does not open the menu, so retry
+	const english = page.getByRole("menuitem", { name: "English" });
+	await expect(async () => {
+		await page.getByRole("button", { name: "Paramètres" }).click();
+		await expect(english).toBeVisible({ timeout: 1000 });
+	}).toPass();
+	await english.click();
 	await expect(page).toHaveURL(/\/about$/);
 	expect(new URL(page.url()).pathname).toBe("/about");
 	await expect(page.locator("html")).toHaveAttribute("lang", "en");

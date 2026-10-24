@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import { useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
 import { useLocale, useTranslations } from "next-intl";
 import {
@@ -46,9 +45,7 @@ export function SettingsDropdown() {
 	const { theme, setTheme } = useTheme();
 	const t = useTranslations("settings");
 	const locale = useLocale();
-	const router = useRouter();
 	const pathname = usePathname();
-	const [isPending, startTransition] = React.useTransition();
 	// The active theme is only known on the client; avoid a hydration mismatch on the check marks
 	const mounted = React.useSyncExternalStore(
 		noopSubscribe,
@@ -58,12 +55,11 @@ export function SettingsDropdown() {
 
 	const handleLocaleChange = (next: Locale) => {
 		if (next === locale) return;
-		// Store the choice first so the proxy does not redirect back to the old locale. next-intl's
-		// router always prefixes on a locale change ("/en/about"), which stays in the address bar.
+		// Store the choice first so the proxy does not redirect back to the old locale. A full page
+		// load, not a router navigation: a soft navigation between locales sometimes kept the old
+		// locale's layout (header, <html lang>) over the new page, and it also resets `dir`.
 		setLocaleCookie(next);
-		startTransition(() =>
-			router.replace(getPathname({ href: pathname, locale: next })),
-		);
+		window.location.assign(getPathname({ href: pathname, locale: next }));
 	};
 
 	return (
@@ -74,7 +70,6 @@ export function SettingsDropdown() {
 					size="icon"
 					className="size-9"
 					aria-label={t("title")}
-					disabled={isPending}
 				>
 					<IconSettings className="size-5" />
 				</Button>
